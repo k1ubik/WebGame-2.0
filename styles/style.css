@@ -29,12 +29,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
     max-width: 600px;
 }
 
 .mainImg {
-    background-image: url(../images/placeholderimg.svg);
+    background-image: url(../images/dream.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
