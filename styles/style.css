@@ -75,6 +75,20 @@ body {
     width: 100%;
     height: 400px;
 }
+.crashout {
+    background-image: url(../images/WinterArcStart.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+.SigmaFood {
+    background-image: url(../images/SigmaBreakfast.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
 
 .button-container {
     display: flex;
