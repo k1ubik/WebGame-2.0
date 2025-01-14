@@ -47,6 +47,34 @@ body {
     width: 100%;
     height: 400px;
 }
+.wakeup {
+    background-image: url(../images/wakeup.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+.brukfast {
+    background-image: url(../images/brukfast.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+.livingroom {
+    background-image: url(../images/living\ room.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400PX;
+}
+.running1 {
+    background-image: url(../images/Patrick\ Bateman.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
 
 .button-container {
     display: flex;
@@ -68,13 +96,16 @@ body {
 }
 
 .p1 {
+    font-family: sans-serif;
     font-size: larger;
     font-weight: bold;
 }
 .p2 {
+    font-family: sans-serif;
     font-size: large;
     font-weight: bold;
 }
 .p3 {
+    font-family: sans-serif;
     font-weight: bolder;
 }
