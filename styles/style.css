@@ -9,7 +9,6 @@ body {
 
 .mainBox {
     position: relative;
-    z-index: 1;
     padding: 20px;
     background-color: #D5CEA3;
     margin: 20px;
@@ -39,119 +38,77 @@ footer {
     padding: 10px;
 }
 
-.mainImg {
-    background-image: url(../images/dream.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.nerdImg {
-    background-image: url(../images/mimimimimi-cat-sleeping.gif);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.wakeup {
-    background-image: url(../images/wakeup.webp);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.brukfast {
-    background-image: url(../images/brukfast.webp);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.livingroom {
-    background-image: url(../images/living\ room.webp);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400PX;
-}
-.running1 {
-    background-image: url(../images/Patrick\ Bateman.jpeg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.crashout {
-    background-image: url(../images/WinterArcStart.png);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.SigmaFood {
-    background-image: url(../images/SigmaBreakfast.jpeg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.sigmaworkout {
-    background-image: url(../images/5x30.gif);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.RIP {
-    background-image: url(../images/RIP.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.LowTaperFade {
-    background-image: url(../images/LowTaperFade.webp);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.ManRizz {
-    background-image: url(../images/ManRizz.webp);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.property {
-    background-image: url(../images/ManProperty.webp);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.terror {
-    background-image: url(../images/terror.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.destroyed {
-    background-image: url(../images/destroyed.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-}
-.lpoh {
-    background-image: url(../images/leader.jpg);
+.mainImg, .nerdImg, .wakeup, .brukfast, .livingroom, .running1, .crashout, .SigmaFood, .sigmaworkout, .RIP, .LowTaperFade, .ManRizz, .property, .terror, .destroyed, .lpoh {
+    border: 1px black solid;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 400px;
 }
 
+.mainImg {
+    background-image: url(../images/dream.jpg);
+}
+
+.nerdImg {
+    background-image: url(../images/mimimimimi-cat-sleeping.gif);
+}
+
+.wakeup {
+    background-image: url(../images/wakeup.webp);
+}
+
+.brukfast {
+    background-image: url(../images/brukfast.webp);
+}
+
+.livingroom {
+    background-image: url(../images/living\ room.webp);
+}
+
+.running1 {
+    background-image: url(../images/Patrick\ Bateman.jpeg);
+}
+
+.crashout {
+    background-image: url(../images/WinterArcStart.png);
+}
+
+.SigmaFood {
+    background-image: url(../images/SigmaBreakfast.jpeg);
+}
+
+.sigmaworkout {
+    background-image: url(../images/5x30.gif);
+}
+
+.RIP {
+    background-image: url(../images/RIP.jpg);
+}
+
+.LowTaperFade {
+    background-image: url(../images/LowTaperFade.webp);
+}
+
+.ManRizz {
+    background-image: url(../images/ManRizz.webp);
+}
+
+.property {
+    background-image: url(../images/ManProperty.webp);
+}
+
+.terror {
+    background-image: url(../images/terror.jpg);
+}
+
+.destroyed {
+    background-image: url(../images/destroyed.jpg);
+}
+
+.lpoh {
+    background-image: url(../images/leader.jpg);
+}
 
 .button-container {
     display: flex;
@@ -161,12 +118,12 @@ footer {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: grey;
-    color: black;
+    background-color: #E5E5CB;
+    color: #1A120B;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    border: none;
+    border: 1px #6f6f5e solid;
     cursor: help;
     font-size: 16px;
     margin: 5px;
@@ -176,7 +133,7 @@ footer {
 .p0 {
     color: #D5CEA3;
     font-family: sans-serif;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     text-align: center;
 }
@@ -210,11 +167,4 @@ footer {
         width: 100%;
         text-align: center;
     }
-}
-
-header {
-    z-index: 1;
-}
-footer {
-    z-index: 1;
 }
